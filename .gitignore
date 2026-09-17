@@ -1,1 +1,53 @@
+# ---- macOS ----
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# ---- Node / JS / TS ----
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- 环境变量 / 密钥 ----
+.env
+.env.*
+!.env.example
+
+# ---- 日志 / 临时文件 ----
+*.log
+*.tmp
+.cache/
+
+# ---- 课程敏感资料（试卷/答案，见 README 约定）----
+ENGG1000/*.pdf
